@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("data(1).csv")
+df = pd.read_csv("data.csv")
 
 # a. Filter required scenario
 data = df[df['scenario'] == '05_AdVsRevenue']
